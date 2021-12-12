@@ -51,3 +51,15 @@
     color: var(--white);
     background: #4B0082;
 }
+
+.nav-toggle::after{
+    content: '\f038';
+    font-family: 'font Awesome';
+    color: green;
+    font-size: 40px;
+    border-radius: 10px;
+}
+.navbar-toggle{
+    display: flex;
+    align-items: center;
+}

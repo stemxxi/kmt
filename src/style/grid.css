@@ -56,4 +56,37 @@
         max-width: 100%;
        
     }
+    
+}
+@media (max-width: 425px) {
+    .container{
+        max-width: 100%;
+       
+    }
+    .contact-me{
+        display: none;
+    }
+    .nav-content{
+        padding: 0px 0px;
+    }
+    
+}
+@media (max-width: 320px) {
+    .container{
+        max-width: 100%;
+       
+    }
+    .contact-me{
+        display: none;
+    }
+    .nav-content{
+        padding: 0px 0px;
+    }
+    .nav-toggle::after {
+        font-size: 30px;
+    }
+    .navbar-brand-logo {
+        width: 85px;
+    }
+    
 }
