@@ -1,0 +1,53 @@
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+.navbar-brand-logo{
+    width: 150px;
+    z-index: 10000;
+}
+
+.nav{
+    background: #282a32;
+    box-shadow: 2px 2px 7px 4px var(--Gray);
+    padding: 10px 20px;
+}
+
+.navbar-nav{
+    display: flex;
+}
+
+.nav-link,
+.contact-me{
+    color: #FFFFFF;
+    font-size: 23px;
+    font-family: var(--Montserrat-Medium);
+    padding-right: 80px;
+    display: inline-block;
+    animation: bounce;
+    animation-duration: 1.5s; 
+
+}
+
+.nav__content-list{
+    display: flex;
+    align-items: center;
+}
+
+.contact-me{
+    background-color: var(--Orange);
+    padding-right: 0px;
+    padding: 15px 30px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: var(--Orange);   
+}
+.contact-me:hover{
+    color: var(--white);
+    background: #4B0082;
+}
