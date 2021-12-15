@@ -71,6 +71,25 @@
     }
     
 }
+@media (max-width: 375px) {
+    .container{
+        max-width: 100%;
+       
+    }
+    .contact-me{
+        display: none;
+    }
+    .nav-content{
+        padding: 0px 0px;
+    }
+    .nav-toggle::after {
+        font-size: 26px;
+    }
+    .navbar-brand-logo {
+        width: 90px;
+    }
+    
+}
 @media (max-width: 320px) {
     .container{
         max-width: 100%;
