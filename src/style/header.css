@@ -58,6 +58,7 @@
     color: green;
     font-size: 40px;
     border-radius: 10px;
+    display: none;
 }
 .navbar-toggle{
     display: flex;

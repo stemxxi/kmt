@@ -44,11 +44,12 @@ button {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
+    list-style: none !important;
 }
 li {
-    text-decoration: none;
-    list-style: none;
+    text-decoration: none !important;
+    list-style: none !important;
 }
 ul {
     list-style: none;
